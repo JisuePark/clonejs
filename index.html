@@ -10,9 +10,11 @@
   <link rel="stylesheet" href="src/style.css">
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
-  <script defer src="src/todo.js"></script>
   <script defer src="src/clock.js"></script>
+  <script defer src="src/d_day.js"></script>
+  <script defer src="src/todo.js"></script>
   <script defer src="src/user.js"></script>
+  <script defer src="src/quote.js"></script>
   <script defer src="src/bg.js"></script>
   <script defer src="src/weather.js"></script>
 </head>
@@ -21,26 +23,39 @@
 
   <!-- I love you, Nico! I learn a lot of things from you. 
   I have been enjoy this challenge. Thank you. -->
-  <div class="js-clock">
-    <h1>00:00</h1>
-  </div>
-  <div class="greetingbox">
-    <form class="js-userform form">
-      <input type="text" placeholder="What is your name">
-    </form>
-    <h2 class="js-user user"></h2>
-  </div>
-  <div class="todaytodo">
-    <form class="js-todaytodo">
-      <input type="text" Placeholder="To-Do List for today">
-    </form>
-    <ul class="js-todayList"></ul>
-  </div>
-  <div class="weektodo">
-    <form class="js-weektodo">
-      <input type="text" Placeholder="To-Do List for this week">
-    </form>
-    <ul class="js-weekList"></ul>
+  <div class="wrapper">
+
+    <div class="js-clock">
+      <h1>00:00</h1>
+      <p></p>
+    </div>
+    <div class="dday">
+      <h2 class="js-dday"></h2>
+    </div>
+    <div class="greetingbox">
+      <form class="js-userform form">
+        <input type="text" placeholder="What is your name?">
+      </form>
+      <h2 class="js-user user"></h2>
+    </div>
+    <div class="todo">
+
+      <div class="todaytodo">
+        <form class="js-todaytodo">
+          <input type="text" Placeholder="To-Do List for TODAY">
+        </form>
+        <ul class="js-todayList"></ul>
+      </div>
+      <div class="weektodo">
+        <form class="js-weektodo">
+          <input type="text" Placeholder="To-Do List for THIS WEEK">
+        </form>
+        <ul class="js-weekList"></ul>
+      </div>
+    </div>
+    <div class="quote">
+      <p class="js-quote"></p>
+    </div>
   </div>
   <span class="js-weather"></span>
 
