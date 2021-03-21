@@ -1,3 +1,4 @@
+//
 const userForm = document.querySelector(".js-userform"),
   input = userForm.querySelector("input"),
   userDisplay = document.querySelector(".js-user");

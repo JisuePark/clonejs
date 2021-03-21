@@ -1,5 +1,1 @@
-# Vanilla JavaScript Challenge
-
-I make this watching the lecture of "Nomad Coder" as a challenge.
-
-And I changed Somethings.
+# 수능 D-day TO-DO LIST

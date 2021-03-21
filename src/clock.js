@@ -1,3 +1,4 @@
+//
 const clockContainer = document.querySelector(".js-clock"),
   clock = clockContainer.querySelector("h1"),
   p = clockContainer.querySelector('p');

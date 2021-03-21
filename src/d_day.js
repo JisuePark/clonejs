@@ -1,3 +1,4 @@
+//
 const displayDay = document.querySelector('.js-dday');
 
 const getDay = () => {
